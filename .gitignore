@@ -1,6 +1,19 @@
-__pycache__/
-*.pyc
+# Entornos virtuales
+venv/
 .venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+
+# Variables de entorno y datos sensibles
 .env
-.env.local
-.vercel
+.env.*
+!.env.example
+
+# Archivos de Django
+db.sqlite3
+
+# Configuración y archivos locales
+.vercel/
+.vscode/
